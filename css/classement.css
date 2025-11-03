@@ -1,0 +1,70 @@
+.classement-hero {
+    min-height: 100vh;
+    background: linear-gradient(rgba(253, 185, 19, 0.4), rgba(200, 16, 46, 0.3)), 
+                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect fill="%23FDB913" width="1200" height="800"/><circle cx="600" cy="400" r="300" fill="%23ddd" opacity="0.3"/><rect x="100" y="100" width="1000" height="600" fill="none" stroke="%23fff" stroke-width="2" opacity="0.2"/></svg>');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 13vh 2.6vh;
+    margin-top: 10.4vh;
+}
+
+.classement-container {
+    max-width: 156vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98); 
+    border-radius: 1.95vh;
+    padding: 5.2vh;
+    box-shadow: 0 0.65vh 2.6vh rgba(0, 0, 0, 0.2);
+}
+
+.classement-container h1 {
+    font-size: 6.24vh;
+    font-weight: 900;
+    color: #C8102E; 
+    margin-bottom: 1.3vh;
+    text-shadow: 0.26vh 0.26vh 1.04vh rgba(0, 0, 0, 0.3);
+}
+
+.classement-container p {
+    font-size: 2.34vh;
+    color: #555; 
+    margin-bottom: 3.9vh;
+}
+
+.classement-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 2.08vh;
+    color: #333;
+}
+
+.classement-table th,
+.classement-table td {
+    padding: 1.56vh;
+    text-align: center;
+    border-bottom: 0.13vh solid #eee; 
+}
+
+.classement-table th {
+    background-color: #C8102E;
+    color: #333; 
+    font-weight: bold;
+}
+
+.classement-table tr:hover {
+    background-color: rgba(253, 185, 19, 0.1); /* Survol jaune */
+}
+
+.classement-table .rc-lens {
+    background-color: rgba(200, 16, 46, 0.1); 
+    font-weight: bold;
+}
+
+.classement-table .rc-lens td {
+    color: #C8102E; 
+}

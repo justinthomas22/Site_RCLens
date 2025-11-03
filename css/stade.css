@@ -1,0 +1,97 @@
+.stade-hero {
+    height: 80vh;
+    background: linear-gradient(rgba(139, 0, 0, 0.6), rgba(200, 16, 46, 0.8)), 
+                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect fill="%23600" width="1200" height="800"/><circle cx="600" cy="400" r="300" fill="%23700" opacity="0.3"/><rect x="100" y="100" width="1000" height="600" fill="none" stroke="%23fff" stroke-width="2" opacity="0.2"/></svg>');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 2.6vh;
+    margin-top: 10.4vh;
+}
+
+.stade-hero h1 {
+    font-size: 3.9vh;
+    font-weight: 800;
+    margin-top: 0.65vh;
+    margin-bottom: 2.6vh;
+    margin-right: 84.5vh;
+    text-shadow: 0.39vh 0.39vh 1.3vh rgba(0, 0, 0, 0.5);
+}
+
+.stade-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 5.2vh;
+    max-width: 182vh;
+    margin: 0 auto;
+    padding: 0 2.6vh;
+}
+
+.Bollaert {
+    display: flex;
+    justify-content: center;
+}
+
+.Bollaert img {
+    width: 91vh;
+    max-width: none;
+    height: auto;
+    border: 2.6vh solid #ffcc00;
+    border-radius: 1.3vh;
+    box-shadow: 0 0.52vh 1.04vh rgba(0,0,0,0.3);
+}
+
+.stade-description {
+    flex: 1; /* Permet au texte de prendre tout l'espace restant */
+}
+
+.stade-description p {
+    font-size: 2.6vh;
+    font-weight: 400;
+    line-height: 1.6;
+    text-shadow: 0.26vh 0.26vh 1.04vh rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
+
+.info-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3.9vh;
+    margin: 7.8vh auto;
+    max-width: 130vh;
+}
+
+.info-card {
+    background-color: white;
+    border: 0.39vh solid black;
+    border-radius: 1.95vh;
+    width: 28.6vh;
+    padding: 3.25vh;
+    text-align: center;
+    box-shadow: 0 0.65vh 1.95vh rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-0.65vh);
+    box-shadow: 0 1.04vh 3.25vh rgba(200, 16, 46, 0.4);
+}
+
+.info-card h3 {
+    color: red;
+    font-size: 2.86vh;
+    margin-bottom: 1.3vh;
+}
+
+.info-card p {
+    font-size: 2.34vh;
+    color: #333;
+    font-weight: 500;
+}

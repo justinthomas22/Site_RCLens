@@ -1,0 +1,101 @@
+.connexion-hero {
+    height: 100vh;
+    background: url('https://www.francebleu.fr/pikapi/images/764f05fb-b59c-4df8-aa5a-4e27e48dd132/1200x680?webp=false');
+     
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 2.6vh;
+    margin-top: 10.4vh; 
+}
+
+.connexion-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Fond a moitié transparent pour le formulaire */
+    border-radius: 1.95vh;
+    padding: 5.2vh;
+    max-width: 52vh;
+    width: 100%;
+    box-shadow: 0 0.65vh 2.6vh rgba(0, 0, 0, 0.3);
+}
+
+.connexion-container h1 {
+    font-size: 4.68vh;
+    font-weight: 900;
+    color: black; 
+    margin-bottom: 1.3vh;
+    text-shadow: 0.26vh 0.26vh 1.04vh rgba(0, 0, 0, 0.5);
+}
+
+.connexion-container p {
+    font-size: 2.34vh;
+    color: #333;
+    margin-bottom: 3.9vh;
+}
+
+.connexion-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2.6vh;
+}
+
+.form-group {
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-size: 2.08vh;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 0.65vh;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 1.56vh;
+    border: 0.26vh solid #ddd;
+    border-radius: 0.65vh;
+    font-size: 2.08vh;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+    border-color: #C8102E;
+    outline: none;
+}
+
+.btn-connexion {
+    background-color: #C8102E;
+    color: white;
+    padding: 1.95vh;
+    font-size: 2.34vh;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.65vh;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-connexion:hover {
+    background-color: #a00d25;
+}
+
+.form-links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.82vh;
+}
+
+.form-links a {
+    color: #C8102E;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.form-links a:hover {
+    color: #FDB913; 
+}
